@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<defs><linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9EE1FF"/><stop offset="1" stop-color="#E4F7FF"/></linearGradient></defs>
+<rect width="400" height="300" fill="url(#s)"/>
+<circle cx="340" cy="52" r="36" fill="#FFD84D" opacity=".25"/><circle cx="340" cy="52" r="26" fill="#FFD84D"/>
+<g fill="#fff" opacity=".85"><ellipse cx="70" cy="56" rx="34" ry="12"/><ellipse cx="92" cy="48" rx="20" ry="14"/><ellipse cx="250" cy="34" rx="26" ry="9"/></g>
+<ellipse cx="200" cy="292" rx="260" ry="40" fill="#7BD66B"/><ellipse cx="200" cy="300" rx="260" ry="34" fill="#5CC25A"/>
+<g stroke="#0B2A66" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"><path d="M40 150 h170 l-10 20 h-150z" fill="#7A4A2A"/><rect x="48" y="130" width="154" height="24" rx="6" fill="#3FA845"/>
+<path d="M60 170 v90 M190 170 v90" fill="none" stroke-width="8"/>
+<rect x="228" y="140" width="136" height="64" rx="8" fill="#29B6F6"/><rect x="238" y="148" width="116" height="48" rx="4" fill="#E4F7FF"/>
+<path d="M240 204 v56 M352 204 v56" fill="none" stroke-width="8"/></g>
+<path d="M296 148 v48" stroke="#0B2A66" stroke-width="2" opacity=".4"/>
+<path d="M150 136 l-70 -26" stroke="#C9964E" stroke-width="5" stroke-linecap="round"/>
+<g stroke="#0B2A66" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"><circle cx="100" cy="140" r="7" fill="#E3262E"/><circle cx="118" cy="138" r="7" fill="#FFC61A"/><circle cx="160" cy="140" r="7" fill="#fff"/>
+<circle cx="266" cy="172" r="10" fill="#E3262E"/><circle cx="330" cy="172" r="10" fill="#0047AF"/><circle cx="300" cy="166" r="6" fill="#FFC61A"/></g>
+</svg>

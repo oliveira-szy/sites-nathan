@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<defs><linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFC4E1"/><stop offset="1" stop-color="#FFF0F7"/></linearGradient></defs>
+<rect width="400" height="300" fill="url(#s)"/>
+<circle cx="340" cy="52" r="36" fill="#FFD84D" opacity=".25"/><circle cx="340" cy="52" r="26" fill="#FFD84D"/>
+<g fill="#fff" opacity=".85"><ellipse cx="70" cy="56" rx="34" ry="12"/><ellipse cx="92" cy="48" rx="20" ry="14"/><ellipse cx="250" cy="34" rx="26" ry="9"/></g>
+<ellipse cx="200" cy="292" rx="260" ry="40" fill="#7BD66B"/><ellipse cx="200" cy="300" rx="260" ry="34" fill="#5CC25A"/>
+<rect x="60" y="80" width="280" height="190" rx="10" fill="#fff" opacity=".35"/>
+<g stroke="#0B2A66" stroke-width="1" opacity=".3"><path d="M74 100 H193 M74 120 H193 M74 140 H193 M74 160 H193 M207 100 H326 M207 120 H326 M207 140 H326 M207 160 H326"/><path d="M94 88 V170 M114 88 V170 M134 88 V170 M154 88 V170 M174 88 V170 M227 88 V170 M247 88 V170 M267 88 V170 M287 88 V170 M307 88 V170"/></g>
+<g stroke="#0B2A66" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"><rect x="60" y="80" width="14" height="190" fill="#0047AF"/><rect x="326" y="80" width="14" height="190" fill="#0047AF"/><rect x="193" y="80" width="14" height="190" fill="#0047AF"/>
+<rect x="60" y="74" width="280" height="14" rx="7" fill="#FFC61A"/><rect x="60" y="170" width="280" height="12" rx="6" fill="#E3262E"/>
+<path d="M207 176 q70 10 110 80 h24 q-40 -90 -134 -100z" fill="#29B6F6"/>
+<rect x="84" y="200" width="100" height="60" rx="8" fill="#5CC25A"/>
+<circle cx="104" cy="216" r="8" fill="#E3262E"/><circle cx="130" cy="228" r="8" fill="#FFC61A"/><circle cx="160" cy="214" r="8" fill="#E6187E"/><circle cx="118" cy="244" r="8" fill="#0047AF"/><circle cx="150" cy="242" r="8" fill="#29B6F6"/></g>
+</svg>

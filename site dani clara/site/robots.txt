@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.danieclarabrinquedos.com.br/sitemap.xml

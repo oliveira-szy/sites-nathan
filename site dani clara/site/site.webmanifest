@@ -1,0 +1,14 @@
+{
+  "name": "Dani & Clara Brinquedos",
+  "short_name": "Dani & Clara",
+  "description": "Aluguel de brinquedos infláveis para festas no Rio de Janeiro",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFF9EE",
+  "theme_color": "#0047AF",
+  "lang": "pt-BR",
+  "icons": [
+    { "src": "/img/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/img/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

@@ -32,11 +32,28 @@ Hoje o site usa `https://www.fpbrinquedos.com.br` como exemplo. Quando o domíni
 clique com o botão direito em `trocar-dominio.ps1` > **"Executar com o PowerShell"** e digite o domínio
 completo (ex.: `https://www.fpbrinquedos.com.br`).
 
-## 2. Hospedar
+## 2. Hospedar na Vercel (passo a passo)
 
-- **Vercel** (recomendado): importe o repositório, Framework Preset **Other**, Root Directory **`site fp brinquedos/site`**.
-- **Netlify / Cloudflare Pages**: arraste a pasta `site/` (o `_headers` já vai junto).
-- **Hospedagem comum (Apache)**: envie o conteúdo de `site/` para `public_html` (o `.htaccess` já vai junto).
+O site já está no GitHub, no repositório `oliveira-szy/sites-nathan`, pasta `site fp brinquedos/`.
+
+1. Entre em [vercel.com](https://vercel.com) com a conta do GitHub (pode ser a conta da FP).
+2. **Add New… > Project** e escolha o repositório `sites-nathan` (se ele não aparecer, clique em
+   "Adjust GitHub App Permissions" e libere o repositório).
+3. Configure:
+   - **Project Name:** `fp-brinquedos`
+   - **Framework Preset:** Other
+   - **Root Directory:** clique em Edit e escolha `site fp brinquedos/site`
+   - Build Command e Output Directory: deixe em branco
+4. Clique em **Deploy**. Em menos de 1 minuto o site fica no ar em `fp-brinquedos.vercel.app`.
+   O `site/vercel.json` já aplica os cabeçalhos de segurança (CSP, HSTS etc.) e o cache.
+5. Domínio próprio: em **Settings > Domains**, adicione o domínio (ex.: `fpbrinquedos.com.br` e `www.fpbrinquedos.com.br`)
+   e copie os registros de DNS que a Vercel mostrar para o lugar onde o domínio foi comprado (Registro.br, Hostinger etc.).
+   Depois rode o `trocar-dominio.ps1` (passo 1) se o domínio for diferente do exemplo.
+
+Cada alteração enviada para a branch `main` do GitHub atualiza o site sozinha.
+
+**Outras hospedagens:** Netlify ou Cloudflare Pages (arraste a pasta `site/`, o `_headers` já vai junto) ou
+hospedagem comum com Apache (envie o conteúdo de `site/` para `public_html`, o `.htaccess` já vai junto).
 
 ## 3. Depois de publicar
 

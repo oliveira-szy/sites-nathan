@@ -38,3 +38,10 @@ Decisões e aprendizados, do mais antigo para o mais novo. Acrescente sempre no 
 - Se querem mostrar a Futmesa (aparece no Instagram, mas só como arte com texto) e o parcelamento no cartão.
 - Depoimentos de clientes (não há nenhum no site ainda).
 - Fotos originais em boa resolução, principalmente das festas.
+
+## 2026-11-04: prévia para o cliente
+
+- PDF único (`previa-cliente/Previa-Site-FP-Brinquedos.pdf`): capa + versão computador (1440 px) + versão celular (390 px, 2x),
+  com marca d'água "PRÉVIA • NÃO AUTORIZADO PARA USO" aplicada nos pixels, igual à prévia da Dani & Clara.
+- Gerado com Playwright (Chromium) no ambiente na nuvem: rolar a página inteira para carregar as fotos `lazy`,
+  forçar `.reveal.is-in`, esconder o botão flutuante e deixar o cabeçalho `position: relative` antes do print.
